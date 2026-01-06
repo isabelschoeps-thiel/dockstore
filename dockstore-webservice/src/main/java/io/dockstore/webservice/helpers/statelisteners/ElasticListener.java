@@ -339,7 +339,7 @@ public class ElasticListener implements StateListenerInterface {
         Set<String> verifiedPlatforms = getVerifiedPlatforms(workflowVersions);
         List<String> descriptorTypeVersions = getDistinctDescriptorTypeVersions(entry, workflowVersions);
         List<String> engineVersions = getDistinctEngineVersions(workflowVersions);
-        Set<Author> allAuthors = getAllAuthors(entry);
+        Set<Author> allAuthors = getAllAuthorsAndPad(entry);
         Doi selectedConceptDoi = entry.getDefaultConceptDoi();
         Entry detachedEntry = detach(entry);
         JsonNode jsonNode = MAPPER.readTree(MAPPER.writeValueAsString(detachedEntry));
@@ -360,6 +360,8 @@ public class ElasticListener implements StateListenerInterface {
         objectNode.set("executionCount", MAPPER.valueToTree(getExecutionCount(entry)));
         objectNode.set("monthlyExecutionCounts", MAPPER.valueToTree(getMonthlyExecutionCounts(entry)));
         objectNode.set("weeklyExecutionCounts", MAPPER.valueToTree(getWeeklyExecutionCounts(entry)));
+        objectNode.set("normalizedAuthors", MAPPER.valueToTree(getNormalizedAuthors(entry)));
+        objectNode.set("normalizedName", MAPPER.valueToTree(getNormalizedName(entry)));
         return jsonNode;
     }
 
@@ -401,6 +403,33 @@ public class ElasticListener implements StateListenerInterface {
         return getMetricsForAll(entry)
             .map(metricsForAll -> metricsForAll.getWeeklyExecutionCounts())
             .orElse(null);
+    }
+
+    private static String getNormalizedAuthors(Entry<?, ?> entry) {
+        // Return the author names, filtered of non-alphanumeric characters, lowercased, and separated by tabs, or null if there are no author names.
+        List<String> names = getAllAuthors(entry).stream()
+            .map(Author::getName)
+            .filter(Objects::nonNull)
+            .map(name -> name.replaceAll("[^\\p{IsAlphabetic}\\p{IsDigit}]", ""))
+            .filter(StringUtils::isNotBlank)
+            .map(String::toLowerCase)
+            .toList();
+        if (names.size() > 0) {
+            return names.stream().collect(Collectors.joining("\t"));
+        } else {
+            return null;
+        }
+    }
+
+    private static String getNormalizedName(Entry<?, ?> entry) {
+        // Return the path, lowercased, with the leading path component removed through the first slash ("dockstore.org/", "github.com/", etc).
+        String path = entry.getEntryPath().toLowerCase();
+        int indexOfSlash = path.indexOf('/');
+        if (indexOfSlash >= 0) {
+            return path.substring(indexOfSlash + 1);
+        } else {
+            return path;
+        }
     }
 
     /**
@@ -559,14 +588,17 @@ public class ElasticListener implements StateListenerInterface {
             }
         }
         allAuthors.addAll(entry.getAuthors());
+        return allAuthors;
+    }
 
+    private static Set<Author> getAllAuthorsAndPad(Entry entry) {
+        Set<Author> allAuthors = getAllAuthors(entry);
         if (allAuthors.isEmpty()) {
             // Add an empty author with a null name so that ES has something to replace with the null_value otherwise an empty array is ignored by ES
             allAuthors.add(new Author());
         }
         return allAuthors;
     }
-
 
     /**
      * If entry is a checker workflow, return null.  Otherwise, return entry
