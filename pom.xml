@@ -47,7 +47,7 @@
         <postgresql.version>42.4.4</postgresql.version>
         <maven-surefire.version>3.5.3</maven-surefire.version>
         <maven-failsafe.version>3.5.3</maven-failsafe.version>
-        <maven-java.version>17</maven-java.version>
+        <maven-java.version>21</maven-java.version>
 
         <skipTests>false</skipTests>
         <skipITs>true</skipITs>

@@ -19,8 +19,8 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v5
         with:
-          java-version:  '21.0.2+13.0.LTS'
-          distribution: 'adopt'
+          java-version:  '21.0.10+7-LTS'
+          distribution: 'temurin'
 
       - name: install git secrets
         run: |
