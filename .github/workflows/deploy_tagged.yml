@@ -33,7 +33,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v5
         with:
-          java-version: '21.0.10+7-LTS'
+          java-version: '21.0.10+7.0.LTS'
           distribution: 'temurin'
 
       - name: Store Maven project version 
