@@ -4,11 +4,11 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
       matrix:
-        java: [ '21.0.8+9.0.LTS' ]
+        java: [ '21.0.10+7.0.LTS' ]
 
     steps:
       - name: install git secrets
@@ -22,7 +22,8 @@ jobs:
         uses: actions/setup-java@v5
         with:
           java-version: ${{ matrix.java }}
-          distribution: 'adopt'
+          distribution: 'temurin'
+
 
       - if: "!contains(github.ref, 'dependabot')"
         name: Initialize CodeQL
