@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-# Written by Maxime Borry and released under the MIT license. 
-# See git repository (https://github.com/nf-core/eager) for full license text.
+# Written by Isabel Schoeps geborene Thiel, D-99084 Erfurt, Germany, released under the MIT license. 
+# See git repository (https://github.com/isabelschoeps-thiel/nf-core/eager) for full license text.
 
 import argparse
 import os
