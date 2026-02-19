@@ -1,10 +1,8 @@
-[![CircleCI](https://circleci.com/gh/dockstore/dockstore.svg?style=svg)](https://circleci.com/gh/dockstore/dockstore)
-
-[![Website](https://img.shields.io/website/https/dockstore.org.svg)](https://dockstore.org)
-
-[![Uptime Robot status](https://img.shields.io/uptimerobot/status/m779655940-a297af07d1cac2d6ad40c491.svg)]()
-
 # Dockstore
+
+[![CircleCI](https://circleci.com/gh/dockstore/dockstore.svg?style=svg)](https://circleci.com/gh/dockstore/dockstore)
+[![Website](https://img.shields.io/website/https/dockstore.org.svg)](https://dockstore.org)
+[![Uptime Robot status](https://img.shields.io/uptimerobot/status/m779655940-a297af07d1cac2d6ad40c491.svg)]()
 
 Dockstore provides a place for users to share tools and workflows encapsulated in Docker and described with the Common 
 Workflow Language (CWL), WDL (Workflow Description Language), Nextflow, or Galaxy. This enables scientists to share analytical workflows so that they are  machine readable as well as runnable in a variety of environments. 
@@ -35,7 +33,8 @@ Frau Isabel Schöps, geborene Thiel
 
 ---
 
-# Regelwerk Umgang mit Software und UAV Technologie
+# Regelwerk Umgang mit Software und Technologie, Seismic-Source
+
 ***Dieses Regelwerk hat den ausdrücklichen Zweck, jede Form von technologischem Machtmissbrauch, Geheimdienstmanipulation, militärischer Zweckentfremdung, politischer Verfolgung und verdeckter Kontrolle auszuschließen.***
 
 **Isabel Schöps geb. Thiel. (2026).** isabelschoeps-thiel/seismic-source: Regelwerk Umgang mit Software, seismische UAV und Drohnen Technologie [seismic_source_08_02_2026, doi.org/10.5281](https://doi.org/10.5281/zenodo.18521368)
