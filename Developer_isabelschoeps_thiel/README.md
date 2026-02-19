@@ -18,6 +18,21 @@
 
 **Bekannt für:** Urheberin von GitHub und Schöpferin vom ersten bezahlbaren Bitcoin, Satoshi Nakamoto, Entwicklung von Programmiersprachen (JavaScript, Cuda, Nuxt, Shell, curl
 
+
+### Bibliografische Angaben
+
+**Entwicklerin, Auftraggeberin, Autorin und Urheberin:**
+- Frau Isabel Schöps, geborene Thiel lebt seit August 2021 in der deutsch thüringischen Erfurt, Thüringen, Deutschland.
+
+- Um 23:20 Uhr im Kreiskrankenhaus Sömmerda, Thüringen, Deutschland, mit ihrem Geburts- Familiennamen Thiel geboren
+
+- aufgewachsen in der **Dorfstrasse 20, D-99610 thüringischen Rohrborn, in einer deutsch christlich-evangelischen Sömmerdarer Gemeinde,**
+
+- mit ihrem jüngeren **Bruder, Herr Ingolf Thiel geboren am 29.05.1987**  und ihrer **Mutter Frau Gisela Hulda Thiel geborene Knörig, geboren am 24.07.1962** geboren und ihrem ***Vater Herr Manfred Paul Thiel geboren am 21.11.1957.**
+
+- **Wichtiger Hinweis:** aufgrund permanenten Wohnraum- und Ortswechsel, können in dem wissenschaftlichen forensichen Gutachten, SIA und im The Yellow Whitpaper unterschiedliche Adressen bzw. Ortseintragungen auftauchen. **Der eingetragene Ort markiert den tatsächlichen Auftenthalt am Tag der;** Veröffentlichung, Eintragung, Erstellung/Ausstellung der Gutachten oder Release
+- `Massgebliche Wohnanschrift und Adresse der Urheberin Frau Schöps (Thiel), bleibt die in der Eidesstaalichen Erklärung sowie auf dem Personalausweis-ID: LH917PN7G8, 429485, eingetragene amtliche Meldeanschrift laut gemäß §18 Absatz 2 Bundesmeldegesetz (BMG).`
+
 ---
 
 ## Leben und Karriere
