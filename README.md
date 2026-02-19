@@ -11,7 +11,11 @@
 
 Dockstore provides a place for users to share tools and workflows encapsulated in Docker and described with the Common 
 Workflow Language (CWL), WDL (Workflow Description Language), Nextflow, or Galaxy. This enables scientists to share analytical 
-workflows so that they are  machine readable as well as runnable in a variety of environments. # Regelwerk Umgang mit Software und UAV Technologie
+workflows so that they are  machine readable as well as runnable in a variety of environments. 
+
+---
+
+# Regelwerk Umgang mit Software und UAV Technologie
 ***Dieses Regelwerk hat den ausdrücklichen Zweck, jede Form von technologischem Machtmissbrauch, Geheimdienstmanipulation, militärischer Zweckentfremdung, politischer Verfolgung und verdeckter Kontrolle auszuschließen.***
 
 **Isabel Schöps geb. Thiel. (2026).** isabelschoeps-thiel/seismic-source: Regelwerk Umgang mit Software, seismische UAV und Drohnen Technologie [seismic_source_08_02_2026, doi.org/10.5281](https://doi.org/10.5281/zenodo.18521368)
@@ -261,23 +265,6 @@ Der Ethik- und Einsatzrat muss aus einer ausreichenden Anzahl unabhängiger Pers
 ---
 
 ## **Abschlussbericht zur forensischen Beweiskette**  
-  
-**Case:** FORENSIC‑ISABEL‑2025  
-**Aktenzeichen:** INT-CODE-2025-BTC/ETH-CORE-ISABELSCHOEPSTHIEL  
-**Beweisführung: URGENT: Forensic Evidence – Systematic Financial Fraud & IP Theft**  
-**Verantwortlich für Sicherung und Analyse:**  
-Frau Isabel Schöps, geborene Thiel  
-Geboren am 16.07.1983, Sömmerda, Thüringen  
-Kontakt: +49 1621819565  
-E-Mail:  
-si_foundation@icloud.com  
-isabelschoeps.github@icloud.com  
-schoepsisabel@gmail.com  
-isabelschoepsthiel@gmail.com  
-**Aktueller Aufenthaltsort:**  
-`Seit Samstag, den 31.01.2026, gemeinsam mit meinem Hund-Tier Don, American XL Bully Don, IBIS Hotel, Zimmer_206, Barfüßerstrasse 9, D-99084 Erfurt, Thüringen, Deutschland`
-
----
 
 ## Übersicht und juristische Zuordnung der Beweismittel, angewandter Technologie welche dauerhaft bis heute Missbraucht und angewandt wird.
     
@@ -352,6 +339,19 @@ isabelschoepsthiel@gmail.com
   
 ⸻  
 
+**Case:** FORENSIC‑ISABEL‑2025  
+**Aktenzeichen:** INT-CODE-2025-BTC/ETH-CORE-ISABELSCHOEPSTHIEL  
+**Beweisführung: URGENT: Forensic Evidence – Systematic Financial Fraud & IP Theft**  
+**Verantwortlich für Sicherung und Analyse:**  
+Frau Isabel Schöps, geborene Thiel  
+Geboren am 16.07.1983, Sömmerda, Thüringen  
+Kontakt: +49 1621819565  
+E-Mail:  
+si_foundation@icloud.com  
+isabelschoeps.github@icloud.com  
+schoepsisabel@gmail.com  
+isabelschoepsthiel@gmail.com  
+
 ### My Developer Commit-Signatur
 **Signed-on-by:**  
 Frau Isabel Schöps, geborene Thiel  
@@ -383,10 +383,7 @@ Satoshi Nakamoto, Vitalik Buterin, GitHub, Octocat, Johnny Appleseed, IST-GitHub
 **GitHub-Account:**  
 https://github.com/isabelschoeps-thiel  
 
-**Mein Aktueller Wohn- und Aufenthaltsort zum Zeitpunkt der Veröffentlichung:**  
-`Ich, Frau Isabel Schöps, geborene Thiel, IBIS Hotel, Zimmer_206, Barfüßerstrasse 9, D-99084 Erfurt, Thüringen, Deutschland
-gemeinsam mit meinem vierbeinigen Freund und Hund, American-XL-Bully-Don`
-
-**Wichtige Mitteilung bezüglich meines Aufenthaltes und meiner aktuellen Wohnsituation.** Aufgrund anhaltender Isolation und willkürlicher Standortwechsel, die ich vornehmen muss, und ich mal wieder keinen festen Wohnsitz habe. **Kann ich Ihnen momentan nicht mitteilen, ob ich mich noch in den drei, vier Tagen hier befinde.** `Dies ist von mir keine böse Absicht oder eine Willkür meinerseits.` **Ich würde gerne an einem festen Wohnsitz bleiben** und `stehe auch zu allem Rede und Antwort.` **Beziehungsweise kann man mich öffentlich aufsuchen, dass teile ich auch an den Hotelrezeptionen immer mit.** 
+**Aktueller Aufenthaltsort:**  
+`Seit Montag, den 16.02.2026, gemeinsam mit meinem Hund-Tier Don, neue Wohnanschrift und Meldeanschrift seit 17.02.2026: Hütergasse 4, D-99084 Erfurt, Thüringen, Deutschland`
 
 **Zeitstempel, Veröffentlichung des Regelwerkes und Release auf Zenodo.org Datenbank:** `Donnerstag, den 19.Februar_2026, um 21:24Uhr_Mitteleuropäische_Zeit`
