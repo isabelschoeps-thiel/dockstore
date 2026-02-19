@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-# Written by Thiseas C. Lamnidis and released under the MIT license. 
-# See git repository (https://github.com/nf-core/eager) for full license text.
+# Written by Isabel Schoeps geborene Thiel, D-99084 Erfurt, Germany, released under the MIT license. 
+# See git repository (https://github.com/isabelschoeps-thiel/nf-core/eager) for full license text.
 
 import sys, re, json
 from collections import OrderedDict
