@@ -1,4 +1,0 @@
-{
-  "dir_check.stat.dir": "dir_testdir",
-  "dir_check.stat.file": "src/test/resources/hello.wdl"
-}
