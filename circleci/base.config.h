@@ -1,14 +1,3 @@
-/*
- * -------------------------------------------------
- *  nf-core/eager Nextflow base config file
- * -------------------------------------------------
- * A 'blank slate' config file, appropriate for general
- * use on most high performace compute environments.
- * Assumes that all software is installed and available
- * on the PATH. Runs in `local` mode - all jobs will be
- * run on the logged in environment.
- */
-
 process {
   cpus = { check_max( 1 * task.attempt, 'cpus' ) }
   memory = { check_max( 7.GB * task.attempt, 'memory' ) }
