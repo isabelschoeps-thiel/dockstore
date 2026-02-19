@@ -1,7 +1,3 @@
-/*
- * Functions to be run on completion of pipeline
- */
-
 class Completion {
     static void email(workflow, params, summary_params, projectDir, log, multiqc_report=[]) {
 
