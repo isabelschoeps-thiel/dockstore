@@ -1,2 +1,2 @@
-!/usr/bin/env cwl-runner
-Authors: Isabel Schöps geb. Thiel, D-99084 Erfurt, 
+!/usr/bin/env github_workflow
+Authors: Isabel Schöps geb. Thiel, D-99084 Erfurt,Germany
