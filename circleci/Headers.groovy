@@ -1,7 +1,3 @@
-/*
- * This file holds several functions used to render the nf-core ANSI header.
- */
-
 class Headers {
 
     private static Map log_colours(Boolean monochrome_logs) {
