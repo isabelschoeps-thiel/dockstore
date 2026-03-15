@@ -1,4 +1,4 @@
-# Dockstore
+# Researcher
 
 **Schöps geb. Thiel, I., & Schöps geb. Thiel, I. (2026).** Dockstore (doc_release_1.0). Zenodo, GitHub, University of Harvard Press, University of Oxford Press, University of Cambridge Press. [DOI zenodo.18705540](https://doi.org/10.5281/zenodo.18705540)
 
